@@ -1,0 +1,45 @@
+{
+    "name": "express-starter",
+    "version": "0.1.0",
+    "description": "express-starter",
+    "main": "server.js",
+    "author": "WCS",
+    "license": "MIT",
+    "dependencies": {
+        "@google-cloud/local-auth": "^2.1.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "dayjs": "^1.11.7",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.1",
+        "googleapis": "^105.0.0",
+        "jest": "^29.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "mariadb": "^2.5.5",
+        "mysql2": "^2.3.3",
+        "node-mailjet": "^6.0.0",
+        "nodemailer": "^6.8.0",
+        "sequelize": "^6.12.0-beta.2",
+        "stripe": "^11.8.0",
+        "supertest": "^6.3.3"
+    },
+    "scripts": {
+        "setup": "yarn install && husky install",
+        "dev": "nodemon server.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "test": "jest --watchAll --verbose"
+    },
+    "devDependencies": {
+        "eslint": "^7.19.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "husky": "^7.0.0",
+        "lint-staged": "^10.5.3",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.8.0"
+    }
+}
